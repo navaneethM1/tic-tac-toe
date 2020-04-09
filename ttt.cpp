@@ -143,7 +143,7 @@ void Board::comp_move()
     int n = rand()%9 + 1;
     while(!is_valid(n))
     {
-        n = srand()%9 + 1;
+        n = rand()%9 + 1;
     }
     cout << "Computer has put a O in cell " << n << endl << endl;
     int i = (n-1)/3;
